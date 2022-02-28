@@ -74,7 +74,7 @@ int main()
 
   int STEP = 1000;
 
-  for (n = 3; n <= 150; n += 6) {
+  for (n = 3; n <= 180; n += 6) {
     start = clock();
 
     N = 2*n+1;
