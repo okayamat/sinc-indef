@@ -5,7 +5,7 @@
 #include "DE_trans.h"
 
 #define ALPHA 1.0
-#define DOMD 0.5
+#define DOMD (3.14 / 6.0)
 
 double f(double t)
 {
