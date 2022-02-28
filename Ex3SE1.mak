@@ -28,7 +28,6 @@ CPPFLAGS= -I.
 CXX	= g++
 GSL_FL	= `gsl-config --cflags`
 CXXFLAGS= -g $(OPTIMIZE) -Wall $(DEBUG) $(GSL_FL)
-# $(GSL_FL) 
 
 # Fortran77 (*.f)
 FC	= f77
