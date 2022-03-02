@@ -4,10 +4,10 @@ Sinc indefinite integration formulas for a finite interval
 These programs approximate the indefinite integration of the following
 four functions:
 
-(1) f(s) = 1 / (pi * sqrt(1 - s^2))
-(2) f(s) = log((1 + s)/(1 - s)) / (4 log 2)
-(3) f(s) = 2 / (pi * (1 + s^2))
-(4) f(s) = -2 (s g(s) + sin(4 artanh s)) / sqrt(g(s)),
+(1) f(s) = 1 / (pi * sqrt(1 - s^2)) 
+(2) f(s) = log((1 + s)/(1 - s)) / (4 log 2) 
+(3) f(s) = 2 / (pi * (1 + s^2)) 
+(4) f(s) = -2 (s g(s) + sin(4 artanh s)) / sqrt(g(s)), 
     g(s) = cos(4 artanh s) + cosh(pi)
 
 For the approximation, the following six formulas are considered:
