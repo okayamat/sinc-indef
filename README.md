@@ -37,9 +37,9 @@ Gnuplot programs for creating graphs are also stored in the directory.
 
 computation environment:
 
-Mac OS X 10.15.7
-CPU: 2.4 GHz quad core (Intel Core i5)
-Memory: 16 GB 2133 MHz LPDDR3
+Mac OS X 10.15.7  
+CPU: 2.4 GHz quad core (Intel Core i5)  
+Memory: 16 GB 2133 MHz LPDDR3  
 Compiler: Apple clang version 12.0.0
 
 ## References
