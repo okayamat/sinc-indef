@@ -3,6 +3,7 @@ set output "Ex4time.eps"
 set size 0.825
 set logscale y
 set key spacing 1
+set key bottom left
 set xrange [0:0.04]
 set yrange [1e-16:100]
 set xlabel "{/Times-Roman=24 time [s]}"
