@@ -42,6 +42,7 @@ OS: Mac OS X 10.15.7
 CPU: 2.4 GHz quad core (Intel Core i5)  
 Memory: 16 GB 2133 MHz LPDDR3  
 Compiler: Apple clang version 12.0.0
+Libraries: GSL 1.16, CBLAS (Apple's Accelerate framework)
 
 ## References
 1. S. Haber:
