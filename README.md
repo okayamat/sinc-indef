@@ -22,7 +22,7 @@ For the approximation, the following six formulas are considered:
 
 The name of the program denotes the example number and the approximation
 formula. For example, the program Ex2DE1.c approximates the indefinite
-integraion of the function in (1) using the formula (DE1). GNU Scientific
+integraion of the function in (2) using the formula (DE1). GNU Scientific
 Library (GSL) is needed because the formulas (SE1) and (DE1) need to
 compute a special function Si(x). For the formulas (SE2), (SE3), (DE2)
 and (DE3), CBLAS is used for computation of matrix-vector multiplication.
