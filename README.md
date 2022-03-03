@@ -5,20 +5,20 @@ Sinc indefinite integration formulas for a finite interval
 These programs approximate the indefinite integration of the following
 four functions:
 
-(1) f(s) = 1 / (pi * sqrt(1 - s^2))
-(2) f(s) = log((1 + s)/(1 - s)) / (4 log 2)
-(3) f(s) = 2 / (pi * (1 + s^2))
-(4) f(s) = -2 (s g(s) + sin(4 artanh s)) / sqrt(g(s)),
+(1) f(s) = 1 / (pi * sqrt(1 - s^2))  
+(2) f(s) = log((1 + s)/(1 - s)) / (4 log 2)  
+(3) f(s) = 2 / (pi * (1 + s^2))  
+(4) f(s) = -2 (s g(s) + sin(4 artanh s)) / sqrt(g(s)),  
     g(s) = cos(4 artanh s) + cosh(pi)
 
 For the approximation, the following six formulas are considered:
 
-(SE1) proposed by Haber [1]
-(SE2) proposed by Stenger [2]
-(SE3) proposed by Stenger [2]
-(DE1) proposed by Muhammad and Mori [3]
-(DE2) proposed by Tanaka et al. [4]
-(DE3) proposed by Okayama and Tanaka [5]
+(SE1) proposed by Haber [1]  
+(SE2) proposed by Stenger [2]  
+(SE3) proposed by Stenger [2]  
+(DE1) proposed by Muhammad and Mori [3]  
+(DE2) proposed by Tanaka et al. [4]  
+(DE3) proposed by Okayama and Tanaka [5]  
 
 The name of the program denotes the example number and the approximation
 formula. For example, the program Ex2DE1.c approximates the indefinite
@@ -38,9 +38,9 @@ Gnuplot programs for creating graphs are also stored in the directory.
 
 computation environment:
 
-Mac OS X 10.15.7
-CPU: 2.4 GHz quad core (Intel Core i5)
-Memory: 16 GB 2133 MHz LPDDR3
+Mac OS X 10.15.7  
+CPU: 2.4 GHz quad core (Intel Core i5)  
+Memory: 16 GB 2133 MHz LPDDR3  
 Compiler: Apple clang version 12.0.0
 
 ## References
