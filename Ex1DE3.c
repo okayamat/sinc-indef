@@ -43,35 +43,7 @@ double omega_j(double t, int j, double h)
 {
   return gsl_sf_sinc((DE_trans_inv(-1, 1, t) - j*h)/h);
 }
-/*
-double omega_mN(double t, int m, double h)
-{
-  double val = 0;
-  int k;
 
-  for (k = m; k > -m; k--) {
-    val += omega_j(t, k, h) / (1 + exp(M_PI*sinh(k*h)));
-  }
-
-  val = 0.5*(1 - t) - val;
-
-  return val * (1 + exp(-M_PI*sinh(m*h)));
-}
-
-double omega_pN(double t, int m, double h)
-{
-  double val = 0;
-  int k;
-
-  for (k = -m; k < m; k++) {
-    val += omega_j(t, k, h) / (1 + exp(-M_PI*sinh(k*h)));
-  }
-
-  val = 0.5*(1 + t) - val;
-
-  return val * (1 + exp(-M_PI*sinh(m*h)));
-}
-*/
 double Fapp(double* p, double t, int m)
 {
   double h = log(2*DOMD*m / ALPHA) / m;
