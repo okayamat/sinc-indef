@@ -59,4 +59,5 @@ Libraries: GSL 1.16, CBLAS (Apple's Accelerate framework)
  Numerical indefinite integration by double exponential sinc method,
  Mathematics of Computation, Vol. 74 (2005), pp. 655--679.
 5. T. Okayama and K. Tanaka:
- Yet another DE-Sinc indefinite integration formula, Dolomites Research Notes on Approximation, to appear.
+ Yet another DE-Sinc indefinite integration formula, Dolomites Research
+ Notes on Approximation, Vol. 15 (2022), pp. 105--116.
